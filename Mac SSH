@@ -1,0 +1,3 @@
+chmod 400 <path and name of pem file>
+
+ssh -i <path and name of pem> ec2-user@<Public IP>
