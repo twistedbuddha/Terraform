@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install Apache Web Server and PHP
 yum remove -y httpd php
-yum install -y httpd24 php56
+yum install -y httpd php
 # Download Lab files
 wget https://us-west-2-tcprod.s3.amazonaws.com/courses/AWS-100-ARC/v5.3.0/lab-1-webapp/scripts/lab1src.zip
 unzip lab1src.zip -d /tmp/
